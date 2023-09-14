@@ -24,6 +24,8 @@
 ## Hashing
 Hashing is the transformation of a string of characters into a usually shorter fixed-length value or key that represents the original string.
 
+Hashing is simply passing some data through a formula that produce a result , calles hash.
+
 |  | Encryption | Hashing |
 | ------------- | ------------- | ------------- |
 | Defination | Two-way function take plain text data and turn into ciphertext. | One-way method of hidding data using hashing alhorithum that turn plain text into unique hash digest. |
@@ -31,4 +33,16 @@ Hashing is the transformation of a string of characters into a usually shorter f
 | Variable or Fixed Length Output | Variable Length | Fixed Length |
 | Types | Symmetric & Asymmetric | Hashing |
 | Algorithms | RC4, AES, DES, RSA, ECDSA | SHA-1, SHA-2, MD5, CRC32, WHIRLPOOL |
+
+> What happens when two user use same password such as "Password" or "abc1234" ? i.e. algorithm produce same hash value then what happen?
+
+#### Salting or Salted-Hash
+- A salt is a random character string that is added to the begining or end of a password.
+- Salt is unique to eatch user and it is stored in the databased along with the username and salted hashed password.
+
+| Username | Salt | Salted-Hash (SHA256) |
+| ------------- | ------------- | ------------- |
+| alice | apple | 4420d1918bbcf7686defdf9560bb5087d20076de5f77b7cb4c3b40bf46ec428b |
+| bob | test | 4420d1918bbcf7686defdf9560bb5087d20076de5f77b7cb4c3b40bf46ec428b |
+| jason | hello | 695ddccd984217fe8d79858dc485b67d66489145afa78e8b27c1451b27cc7a2b |
 
