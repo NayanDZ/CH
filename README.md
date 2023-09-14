@@ -10,4 +10,13 @@
 3. Nonrepudiation: The creator/sender of the information cannot deny at a later stage his or her intentions in the creation or transmission of the information 
 4. Authentication: The sender and receiver can confirm each other’s identity and the origin/destination of the information.
 
-## Type of Cryptograpgy
+## Types of Cryptograpgy
+<img width="642" alt="Cryptography" src="https://github.com/NayanDZ/CH/assets/65315090/6e9bad18-f92b-455d-8126-83c0140b013a">
+
+| Symmetric Key | Asymmetric Key |
+| ------------- | ------------- |
+| Sender & receiver share a single key that is used to encryption & decryption the message  | Different key are used to encryption & decryption the message |
+| Size of cipher text is same or smaller than the original plain text  | Size of cipher text is same or larger than the original plain text |
+| Encryption process is very fast  | Encryption process is slow |
+| It is usedn when larger amount of data is required to transfer  | It is used to transfer small amount of data |
+| Provide only Confidentiality   | It provide confidentiality, authenticity and non-repudiation |
