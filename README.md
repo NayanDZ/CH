@@ -20,6 +20,8 @@
 | Encryption process is very fast  | Encryption process is slow |
 | It is usedn when larger amount of data is required to transfer  | It is used to transfer small amount of data |
 | Provide only Confidentiality   | It provide confidentiality, authenticity and non-repudiation |
+| **Weaknesses:** <br/>Unique symmetric key must be used between the sender and each recipient, <br/>more key required with the number of users: N (N-1) / 2 <br/>• 10 users = 45 keys <br/>• 1000 users = 499,500 keys   | - Only two keys needed per user <br/><br/>• 1,000 people need total of 2,000 keys <br/>(easy to manage 499,500 needed for symmetric) |
+
 
 ## Hashing
 Hashing is the transformation of a string of characters into a usually shorter fixed-length value or key that represents the original string.
