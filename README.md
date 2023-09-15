@@ -34,7 +34,12 @@ Hashing is simply passing some data through a formula that produce a result , ca
 | Reversible or Irreversible | Reversible | Irreversible |
 | Variable or Fixed Length Output | Variable Length | Fixed Length |
 | Types | Symmetric & Asymmetric | Hashing |
+| Repeatability | No Repeat value | same hash value will be produced |
 | Algorithms | RC4, AES, DES, RSA, ECDSA | SHA-1, SHA-2, MD5, CRC32, WHIRLPOOL |
+
+- MD5: Known as checksum for a file is a 128-bit value, MD5 function provides a 32 digit hexadecimal number.
+- SHA-1: 160-bit hash function which resembles the earlier MD5 algorithm (designed by NSA). Cryptographic weaknesses were discovered in SHA-1, and the standard was no longer approved for most cryptographic uses after 2010.
+- SHA-2: Known as SHA-256 and SHA-512. They differ in the word size; SHA-256 uses 32-bit words where SHA-512 uses 64-bit words (designed by NSA).
 
 > What happens when two user use same password such as "Password" or "abc1234" ? i.e. algorithm produce same hash value then what happen?
 
